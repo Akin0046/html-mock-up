@@ -9,8 +9,34 @@ body{
     margin: auto;
     max-width: 1200px;
 }
+/* Adjust font and icons */
+h1{
+    color: white;
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+h2{
+    color: black;
+    font-weight: 700;
+    font-size: 1.8rem ;
+}
+
+p {
+    font-size: small;
+}
+
+.blk{
+    color: black;
+}
+
+.yt{
+    color: white;
+}
 
 
+
+/* ooooooooooooooooooooooooooooooooooooooooo */
+/* ooooooooooooooooooooooooooooooooooooooooo */
 .image {
     display: block;
     background-color:#c78c06 ;
@@ -34,45 +60,100 @@ a:link {
 
 .search {
 
+
 }
 
-h1{
-    color: white;
-    font-size: 3rem;
-    font-weight: 700;
-}
-h2{
-    color: black;
-    font-weight: 700;
-    font-size: 1.5rem ;
-}
 .banner-tint {
     background-image: url(https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
     background-repeat: no-repeat;
-    width: auto;
+    background-size: 100%;
+    padding: 4rem 0rem 5rem 0rem;
 
     
-
 }
 
 .tinted {
     display: block;
-    background-color: rgba(0, 0, 0, 50%) ;
-    padding: 6rem 0rem 6rem 0rem;
+    background-color: rgba(0, 0, 0, 70%) ;
+    width: auto;
+    padding: 1rem 0rem 0.1rem 0.6rem;
+    color: white;
 }
-
-
-
-
-/* digital transformatiom */
-/*  */
-
-
-.digital-trans{
+.connect-button {
+    display: inline;
+    color: black;
+    border-color: #c78c06;
+    padding: 10px 20px 20px 40px;
+    margin: 10px 10px 10px 0px;
+    font-size: large;
+}
+/* about us */
+.about{
     background-color: #ffe6ac;
+    width: auto;
+    padding: 0px 0px 10px 0px;
+    color: black;
+}
+.about-text {
+color: black;
+}
+.about img {
+width: 100%;
+padding: 0px 0px 20px 0px;
 
 }
-.digital-trans2{
-    margin: 10px ;
+
+
+/* OUR SERVICES  */
+.service-content{
     display: block;
+    margin: 10px ;
+}
+
+
+.service-button {
+    display: block;
+    color: white;
+    font-size: large;
+    padding: 30px 40px 30px 40px;
+    margin: 10px 10px 10px 0px;
+
+}
+
+.service{
+    background-color: #ffe6ac;
+    width: auto;
+    padding: 0px 0px 10px 0px;
+
+
+}
+.service img {
+width: 100%;
+padding: 0px 0px 20px 0px;
+
+}
+
+/* our vision */
+.our-vison{
+    background-image: url(https://images.unsplash.com/photo-1559125148-869baf508c95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+    margin-top: 1rem;
+
+
+}
+
+.learn{
+    border-color: #c78c06;
+}
+
+.vison-text{
+    display: block;
+
+}
+
+i.icon {
+    width: 2000px;
 }
