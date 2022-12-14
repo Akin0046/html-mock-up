@@ -1,0 +1,78 @@
+/* testing css */
+
+/*  */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+.image {
+    display: block;
+    background-color:#c78c06 ;
+
+}
+
+
+.navbar {
+    background-color: #222;
+    margin: auto;
+}
+ ul li {
+    display: block;
+text-align: center;
+text-decoration: none;
+    margin: auto;
+}
+a:link {
+    text-decoration: none;
+}
+
+.search {
+
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+h2{
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem ;
+}
+.banner-tint {
+    background-image: url(https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background-repeat: no-repeat;
+    width: auto;
+
+    
+
+}
+
+.tinted {
+    display: block;
+    background-color: rgba(0, 0, 0, 50%) ;
+    padding: 6rem 0rem 6rem 0rem;
+}
+
+
+
+
+/* digital transformatiom */
+/*  */
+
+
+.digital-trans{
+    background-color: #ffe6ac;
+
+}
+.digital-trans2{
+    margin: 10px ;
+    display: block;
+}
