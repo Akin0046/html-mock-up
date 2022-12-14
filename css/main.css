@@ -384,7 +384,7 @@ nav {
 .banner-tint {
     background-image: url(https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
     background-repeat: no-repeat;
-    padding: 4rem 0rem rem 0rem;
+    padding: 4rem 0rem 3rem 0rem;
 }
 
 .about{
