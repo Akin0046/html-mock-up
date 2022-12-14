@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0rem 1rem 0rem 1rem;
 }
 .wrapper{
     margin: auto;
@@ -19,6 +20,16 @@ h2{
     color: black;
     font-weight: 700;
     font-size: 1.8rem ;
+}
+h3{
+    color: black;
+    font-weight: 700;
+    font-size: 2.5rem ;
+}
+h4{
+    color: black;
+    font-weight: 700;
+    font-size: 1rem ;   
 }
 
 p {
@@ -67,7 +78,7 @@ a:link {
     background-image: url(https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 4rem 0rem 5rem 0rem;
+    padding: 4rem 0rem 3rem 0rem;
 
     
 }
@@ -91,8 +102,9 @@ a:link {
 .about{
     background-color: #ffe6ac;
     width: auto;
-    padding: 0px 0px 10px 0px;
+    padding: 10px 10px 30px 10px;
     color: black;
+    margin-bottom: 1rem;
 }
 .about-text {
 color: black;
@@ -105,6 +117,9 @@ padding: 0px 0px 20px 0px;
 
 
 /* OUR SERVICES  */
+.our-services-header{
+    margin-bottom: 1rem;
+}
 .service-content{
     display: block;
     margin: 10px ;
@@ -141,6 +156,7 @@ padding: 0px 0px 20px 0px;
     background-size: 100%;
     padding: 2rem 1rem 1rem 1rem;
     margin-top: 1rem;
+    margin-bottom: 2rem;
 
 
 }
@@ -154,6 +170,93 @@ padding: 0px 0px 20px 0px;
 
 }
 
-i.icon {
-    width: 2000px;
+/* OUR TEAM */
+.our-team{
+    width: auto;
+
+}
+.our-team img{
+    width: 100%;
+    height: 100%;
+}
+
+.team-header{
+    margin-bottom: 1rem;
+}
+
+.team-text{
+    background-color: #ffe6ac;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+.names{
+    padding-bottom: 8px;
+}
+hr{
+    color: #c78c06;
+    border-color: #c78c06;
+    background-color: #c78c06;
+}
+/* contact us */
+.contact-header{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-class{
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+}
+
+.send{
+    color: #c78c06;
+    margin-bottom: 3rem;
+}
+/* hours */
+table {
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+
+  }
+
+  td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  tr {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  th {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  th{
+    text-align: left;
+    font-family:'Open Sans', sans-serif ;
+    font-size: small;
+  }
+.highlight{
+    background-color: #ffe6ac;
+    text-align: center;
+}
+/* location */
+.location{
+    margin-top: 1rem;
+}
+
+iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    padding: 1.5rem 0rem 1rem 1rem;
+    background-color: #222;
+    color: #c78c06;
 }
