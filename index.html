@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
     <title>html-mock-up</title>
 </head>
 
@@ -14,26 +21,30 @@
         <header class="header">
 
 
-            <div class="navbar">
-                <nav>
-                    <ul>
+            <div class="navbar" id="home">
+                <nav class="wrapper">
+                    <div class="image">
                         <img src="images/logo.png" alt="image logo">
-                        <li> <a href="#">Home</a></li>
+                    </div>
+                    <ul>
 
-                        <li> <a href="#">About Us</a></li>
+                        <li> <a href="#home">Home</a></li>
 
-                        <li> <a href="#">Services</a></li>
+                        <li> <a href="#about">About Us</a></li>
 
-                        <li> <a href="#">Team</a></li>
+                        <li> <a href="#services">Services</a></li>
 
-                        <li> <a href="#">Contact</a></li>
+                        <li> <a href="#team">Team</a></li>
 
-                        <form action="/action_page.php">
-                            <label for="search-bar"></label><br>
-                            <input type="text" id="search-bar" class="search-bar" name="search-bar"
-                                placeholder="search"><br><br>
-
-                        </form>
+                        <li> <a href="#contact">Contact</a></li>
+                        <div class="search">
+                            <form action="/action_page.php">
+                                <label for="search-bar"></label><br>
+                                <input type="text" id="search-bar" class="search-bar" name="search-bar"
+                                    placeholder="search"><br><br>
+                                <button class="search"><i class='fa fa-search fa-border'></i></button>
+                            </form>
+                        </div>
                     </ul>
 
 
@@ -42,31 +53,38 @@
             </div>
             <!-- banner wrapper -->
             <div class="wrapper">
-                <img src="images/main-banner.jpg" alt="image of office workspace">
-                <div class="tinted">
-                    <h1>Welcome to Three Star Media</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas placeat rerum.
-                        Vel,
-                        aliquid!
-                        Tenetur voluptatibus ducimus dolorum distinctio neque? Esse hic fugiat fugit modi minima nulla
-                        nobis
-                        nemo
-                        incidunt.</p>
-                    <a href="#">Connect with us</a>
+                <div class="banner-tint">
+                    <div class="tinted">
+                        <h1>Welcome to Three </h1>
+                        <br>
+                        <h1>Star Media</h1>
+                        <br>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas placeat rerum.
+                            Vel,
+                            aliquid!
+                            Tenetur voluptatibus ducimus dolorum distinctio neque? Esse hic fugiat fugit modi minima
+                            nulla
+                            nobis
+                            nemo
+                            incidunt.</p>
+                        <button style="background-color:#c78c06;"  class="connect-button">Connect with us <i style="font-size: 45px;" style="color: black;"  class="fa fa-caret-right" ></i></button>
+                    </div>
                 </div>
             </div>
         </header>
         <!-- main div -->
         <div class="main">
             <!-- about wrapper -->
-            <div class="wrapper about-us">
+            <div class="wrapper about" id="about">
                 <div class="banner-image"> <img src="images/about-us.jpg" alt="image of leisure area">
                 </div>
 
 
                 <div class="about-text">
 
-                    <h2>About Us</h2>
+                    <h1 class="blk">About Us</h1>
+                    <br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet velit pariatur fugit soluta
                         iure
                         nemo
@@ -85,98 +103,121 @@
 
 
             <!-- div wrapper for our service -->
-            <div class="our-services">
+            <div class="our-services wrapper" id="services">
                 <!-- our services header -->
-                <div class="our-services-header"></div>
+                <div class="our-services-header">
+                    <h1 class="blk">Our Services</h1>
+                </div>
                 <!-- digital transformation div -->
                 <!--  -->
-                <div class="digital-transformation">
+                <div class="digital-trans service">
                     <img src="images/digital.jpg" alt="">
-                    <h2>Digital Transformation</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
-                        explicabo
-                        aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
-                        nemo
-                        ipsa?</p>
-                    <a href="#">Digital Plans</a>
-
+                    <div class=" service-content">
+                        <h2>Digital Transformation</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
+                            explicabo
+                            aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
+                            nemo
+                            ipsa?</p>
+                        <button style="background-color:black;" class="service-button">Digital Plans <i
+                                style="color: white;" class="fa fa-caret-right"></i></button>
+                    </div>
                 </div>
 
                 <!-- marketing div -->
-                <div class="marketing">
+                <div class="marketing service">
                     <img src="images/marketing.jpg" alt="">
-                    <h2>Marketing</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
-                        explicabo
-                        aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
-                        nemo
-                        ipsa?</p>
-                    <a href="#">Marketing Plans</a>
-
+                    <div class=" service-content">
+                        <h2>Marketing</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
+                            explicabo
+                            aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
+                            nemo
+                            ipsa?</p>
+                        <button style="background-color:black;" class="service-button">Marketing Plans  <i
+                                style="color: white;" class="fa fa-caret-right"></i></button>
+                    </div>
                 </div>
-
                 <!--video production div  -->
-                <div class="video-production">
+                <div class="video-production service">
                     <img src="images/video.jpg" alt="">
-                    <h2>Video Production</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
-                        explicabo
-                        aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
-                        nemo
-                        ipsa?</p>
-                    <a href="#">Video Plans</a>
-
+                    <div class=" service-content">
+                        <h2>Video Production</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
+                            explicabo
+                            aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
+                            nemo
+                            ipsa?</p>
+                        <button style="background-color:black;" class="service-button">Video Plans <i
+                                style="color: white;" class="fa fa-caret-right"></i></button>
+                    </div>
                 </div>
 
                 <!-- web dev div -->
-                <div class="web-dev">
+                <div class="web-dev service">
                     <img src="images/web.jpg" alt="">
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
-                        explicabo
-                        aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
-                        nemo
-                        ipsa?</p>
-                    <a href="#">Web Plans</a>
-                </div>
-                <!-- print div -->
-                <div class="print">
-                    <img src="images/print.jpg" alt="">
-                    <h2>print</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
-                        explicabo
-                        aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
-                        nemo
-                        ipsa?</p>
-                    <a href="#">print Plans</a>
+                    <div class=" service-content">
+                        <h2>Web Development</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
+                            explicabo
+                            aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem nisi
+                            nemo
+                            ipsa?</p>
+                        <button style="background-color:black;" class="service-button">Web Plans<i
+                                style="color: white;" class="fa fa-caret-right"></i></button>
+                    </div>
                 </div>
 
+                <!-- print div -->
+                <div class="print service">
+                    <img src="images/print.jpg" alt="">
+                    <div class=" service-content">
+                        <h2>print</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam minus velit
+                            explicabo
+                            aliquid eius, ut cum incidunt sed quia ex laborum ullam officiis, enim quaerat dolorem
+                            nisi
+                            nemo
+                            ipsa?</p>
+                        <button style="background-color:black;" class="service-button">print Plans<i style="color: white;"
+                                class="fa fa-caret-right"></i></button>
+                    </div>
+                </div>
 
                 <!-- /div wrapper for our service -->
             </div>
 
             <!-- our vision div -->
             <div class="wrapper our-vison">
-                <img src="images/vision.jpg" alt="">
                 <div class="vision-text">
-                    <h2>Our vision</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, ullam earum. Qui dolore
-                        exercitationem debitis culpa deleniti quidem aperiam eius, assumenda sint ut ullam voluptas quis
+                    <h2 class="yt">Our vision</h2>
+                    <br>
+                    <p class="yt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, ullam earum. Qui dolore
+                        exercitationem debitis culpa deleniti quidem aperiam eius, assumenda sint ut ullam
+                        voluptas quis
                         similique itaque nulla laboriosam?</p>
-                    <a href="#">Learn More</a>
+                    <button style="background-color: rgba(0, 0, 0, 50%);" class="service-button learn">Learn More
+                        <i style="color: white;" class="fa fa-caret-right"></i></button>
                 </div>
 
             </div>
             <!-- our team div -->
-            <div class="wrapper our-team">
-                <h1>Our Team</h1>
+            <div class="wrapper our-team" id="team">
+                <h1 class="blk">Our Team</h1>
 
                 <div class="john-img"><img src="images/john.jpg" alt="black guy smirking"></div>
                 <div class="john-text">
                     <h2>John Doe</h2>
                     <h3>CEO and Co-owner</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nulla unde ipsam maxime, ea,
-                        repellendus veniam aperiam quam neque quidem praesentium officia nisi sed temporibus. Facilis,
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nulla unde ipsam
+                        maxime, ea,
+                        repellendus veniam aperiam quam neque quidem praesentium officia nisi sed temporibus.
+                        Facilis,
                         quae repudiandae? Consequuntur, eius.</p>
                 </div>
 
@@ -186,13 +227,15 @@
                 <div class="bob-text">
                     <h2>Bob Rite</h2>
                     <h3>CEO and Co-owner</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nulla unde ipsam maxime, ea,
-                        repellendus veniam aperiam quam neque quidem praesentium officia nisi sed temporibus. Facilis,
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem nulla unde ipsam
+                        maxime, ea,
+                        repellendus veniam aperiam quam neque quidem praesentium officia nisi sed temporibus.
+                        Facilis,
                         quae repudiandae? Consequuntur, eius.</p>
                 </div>
             </div>
             <!-- contact div -->
-            <div class="contact wrapper">
+            <div class="contact wrapper" id="contact">
                 <h1>Contact Us</h1>
                 <!-- message form -->
                 <div class="message">
@@ -223,6 +266,20 @@
                 <div class="Hours">
                     <h2>Hours of operation</h2>
                     <!-- hours table -->
+                    <table>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                        <tr>
+                            <th>Monday-Friday</th>
+                            <th>9 AM-6 PM</th>
+                        </tr>
+                        <tr>
+                            <th>Saturday-Sunday</th>
+                            <th>Closed</th>
+                        </tr>
+                    </table>
                 </div>
 
 
@@ -238,7 +295,8 @@
     </div>
 
     <footer>
-        <div> <p> &copy; Copyright Three Star Media 2022</p>
+        <div>
+            <p> &copy; Copyright Three Star Media 2022</p>
             <p>
                 All images are taken from <a href="#">Unsplash</a> </p>
         </div>
